@@ -1,0 +1,79 @@
+armors:
+  basic_helmet:
+    display-name: '&aCapacete Básico'
+    item:
+      material: 'DIAMOND_HELMET'
+      name: '&aCapacete Básico'
+      lore:
+        - '&7Este capacete garante buffs'
+        - '&7na venda da &floja&7.'
+        - ''
+        - '&6Informações'
+        - ' &fBônus &6(bonus)&f: &7{bonus}%'
+        - ' &fDisconto &6(disconto)&f: &7{disconto}%'
+        - ''
+    bonus: 10.0
+    disconto: 1.0
+  basic_chestplate:
+    display-name: '&aPeitoral Básico'
+    item:
+      material: 'DIAMOND_CHESTPLATE'
+      name: '&aPeitoral Básico'
+      lore:
+        - '&7Este peitoral garante buffs'
+        - '&7na venda da &floja&7.'
+        - ''
+        - '&6Informações'
+        - ' &fBônus &6(bonus)&f: &7{bonus}%'
+        - ' &fDisconto &6(disconto)&f: &7{disconto}%'
+        - ''
+    bonus: 15.0
+    disconto: 2.0
+  basic_leggings:
+    display-name: '&aCalças Básicas'
+    item:
+      material: 'DIAMOND_LEGGINGS'
+      name: '&aCalças Básicas'
+      lore:
+        - '&7Estas calças garantem buffs'
+        - '&7na venda da &floja&7.'
+        - ''
+        - '&6Informações'
+        - ' &fBônus &6(bonus)&f: &7{bonus}%'
+        - ' &fDisconto &6(disconto)&f: &7{disconto}%'
+        - ''
+    bonus: 12.0
+    disconto: 1.5
+  basic_boots:
+    display-name: '&aBotas Básicas'
+    item:
+      material: 'DIAMOND_BOOTS'
+      name: '&aBotas Básicas'
+      lore:
+        - '&7Estas botas garantem buffs'
+        - '&7na venda da &floja&7.'
+        - ''
+        - '&6Informações'
+        - ' &fBônus &6(bonus)&f: &7{bonus}%'
+        - ' &fDisconto &6(disconto)&f: &7{disconto}%'
+        - ''
+    bonus: 8.0
+    disconto: 1.0
+messages:
+  syntax: '&cUse: /{command} {syntax}'
+  target: '&cJogador {player} não encontrado.'
+  number: '&cO argumento não é um número.'
+  permission: '&cVocê não tem permissão para fazer isto.'
+  console: '&cApenas jogadores in-game podem realizar esta ação.'
+  cancelled: '&cVocê cancelou a ação.'
+  reload: '&aConfigurações recarregadas com sucesso.'
+  inv-full: '&cO seu inventário está cheio.'
+  help: |
+    &aArmors-Bonus comandos:
+    &a> /armors give <player> <armor>
+    &a> /armors reload
+  armor-give: '&aVocê deu &71x {armor}&a para o jogador &7{player}&a.'
+  armor-received: '&aVocê recebeu &71x {armor}&a.'
+  armor-list: |
+    &cArmadura não encontrada.
+    &cArmaduras disponíveis: &f{list}

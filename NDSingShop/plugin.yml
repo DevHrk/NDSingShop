@@ -1,0 +1,4 @@
+name: NDSingShop
+version: 1.0
+main: me.nd.loja.Main
+api-version: 1.13
